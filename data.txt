@@ -1,0 +1,44 @@
+
+// create new user
+// endpoint : http://localhost:3000/api/v1/user/register
+{
+    "username" : "user1",
+    "email" : "user1@gmail.com",
+    "password" : "user12345",
+    "role" : "user" or "admin"  // default is : "user" no need to add
+}
+
+// login user
+// endpoint : http://localhost:3000/api/v1/user/login
+{
+    "email" : "user1@gmail.com",
+    "password" : "user12345",
+}
+
+
+// create post
+// endpoint : http://localhost:3000/api/v1/post/create_post/1
+
+// dummy data
+{
+    "title": "Working with Sequelize ORM",
+    "slug": "working-with-sequelize-orm",
+    "content": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite, and Microsoft SQL Server. It features solid transaction support, relations, eager and lazy loading, read replication and more. This post covers the basics of setting up Sequelize in your project and how to define models, create relationships, and perform CRUD operations with minimal SQL knowledge."
+}
+
+
+
+// comments
+endpoint : http://localhost:3000/api/v1/post_comment/comment/3
+// dummy data
+{
+    "content": "I disagree with some points in this post. Specifically, the third paragraph seems to contradict established research."
+}
+
+
+// like models
+endpoint : http://localhost:3000/api/v1/like/post/liked
+{
+    "blogpostId": 3,
+    "commentId": 3
+}
