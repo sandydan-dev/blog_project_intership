@@ -51,10 +51,6 @@ BlogPost.associate = (models) => {
   BlogPost.hasMany(models.Comment, {
     foreignKey: "commentId",
   });
-
-  BlogPost.hasMany(models.Like, {
-    foreignKey: "userId",
-  });
 };
 
 module.exports = BlogPost;

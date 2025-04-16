@@ -48,10 +48,6 @@ Comment.associate = (models) => {
   Comment.belongsTo(models.User, {
     foreignKey: "userId",
   });
-
-  Comment.hasMany(models.Like, {
-    foreignKey: "commentId",
-  });
 };
 
 module.exports = Comment;

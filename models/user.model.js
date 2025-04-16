@@ -42,9 +42,6 @@ User.associate = (models) => {
   User.hasMany(models.Comment, {
     foreignKey: "userId",
   });
-  User.hasMany(models.LIke, {
-    foreignKey: "userId",
-  });
 };
 
 module.exports = User;
