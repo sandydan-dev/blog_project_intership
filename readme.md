@@ -14,6 +14,12 @@ A full-featured blog platform built with Node.js, Express, and Sequelize ORM.
 
 This blog platform allows users to create accounts, publish blog posts, and engage with other users through comments. The application implements user authentication, role-based authorization, and relational data management.
 
+
+## New user regiter
+![Image](https://github.com/user-attachments/assets/26926dc4-fb1b-41e9-9c0b-b6cd63eb7924)
+
+
+
 ## Features
 
 - **User Management**
@@ -100,8 +106,6 @@ PORT=3000
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Login and receive JWT token
 
-## New user regiter
-![Image](https://github.com/user-attachments/assets/26926dc4-fb1b-41e9-9c0b-b6cd63eb7924)
 
 ### Users
 - `GET /api/users` - Get all users (admin only)
