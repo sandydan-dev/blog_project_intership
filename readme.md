@@ -1,5 +1,13 @@
 # Blog Project
 
+*COMPANY* : CODETECH IT SOLUTIONS
+*NAME* : Sandeep Dhanwate
+*INTERN ID* : CT06DA679
+*DOMAIN* : Backend Web Development
+*DURATION* : 6 WEEK
+*MENTOR* : NEELA SANTOSH
+
+
 A full-featured blog platform built with Node.js, Express, and Sequelize ORM.
 
 ## Overview
