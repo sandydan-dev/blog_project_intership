@@ -100,6 +100,9 @@ PORT=3000
 - `POST /api/auth/register` - Register a new user
 - `POST /api/auth/login` - Login and receive JWT token
 
+## New user regiter
+![Image](https://github.com/user-attachments/assets/26926dc4-fb1b-41e9-9c0b-b6cd63eb7924)
+
 ### Users
 - `GET /api/users` - Get all users (admin only)
 - `GET /api/users/:id` - Get user by ID
