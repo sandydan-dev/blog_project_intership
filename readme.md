@@ -18,7 +18,8 @@ This blog platform allows users to create accounts, publish blog posts, and enga
 ## New user regiter
 ![Image](https://github.com/user-attachments/assets/26926dc4-fb1b-41e9-9c0b-b6cd63eb7924)
 
-
+## Login existing user
+![Image](https://github.com/user-attachments/assets/f3cace18-ccb9-450c-8b74-68f46e9bc308)
 
 ## Features
 
