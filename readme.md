@@ -65,10 +65,9 @@ This blog platform allows users to create accounts, publish blog posts, and enga
 
 - Node.js (v14 or higher)
 - npm or yarn
-- SQL database (MySQL, PostgreSQL, etc.)
+- SQL database (PostgreSQL)
 
 ### Installation
-
 
 2. Install dependencies:
 ```bash
