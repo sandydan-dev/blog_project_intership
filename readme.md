@@ -24,6 +24,8 @@ This blog platform allows users to create accounts, publish blog posts, and enga
 ## Create a new blog
 ![Image](https://github.com/user-attachments/assets/f43b8514-48e9-49d3-90cb-10936736f2fa)
 
+## Make a comment to blog
+![Image](https://github.com/user-attachments/assets/46d26d60-3930-4752-92a5-bb6ba3a302c5)
 
 ## Features
 
